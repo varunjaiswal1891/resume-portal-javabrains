@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ResumePortalApplication<resume-portal>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "io.javabrains.resume_portal.ResumePortalApplication",
+            "projectName": "resume-portal",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
