@@ -8,10 +8,10 @@
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javabrains</groupId>
-	<artifactId>resume-portal</artifactId>
+	<groupId>io.javabrains</groupId>
+	<artifactId>resume_portal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>resume-portal</name>
+	<name>resume-portal1</name>
 	<description>Demo project for Spring Boot resume portal</description>
 	<properties>
 		<java.version>17</java.version>
@@ -49,7 +49,11 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
